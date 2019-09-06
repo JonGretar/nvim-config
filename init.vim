@@ -1,3 +1,9 @@
+
+" Load Plugins
+call plug#begin('~/.config/nvim/plugged')                                                                                      
+  source ~/.config/nvim/plugins.vim                                                                                            
+call plug#end()           
+
 " Misc Stuff
 "set mouse=""
 set tabstop=2
@@ -17,28 +23,10 @@ set smartcase
 set cursorline
 set cursorcolumn
 
-
-call plug#begin('~/.config/nvim/plugged')
-	" Plugins go here
-	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'sheerun/vim-polyglot'
-  Plug 'tomasr/molokai'
-
-  Plug 'neomake/neomake'
-
-  Plug 'tpope/vim-fugitive'
-
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
-  Plug 'scrooloose/nerdtree'
-  Plug 'Xuyuanp/nerdtree-git-plugin'
-
-"  Plug 'c-brenn/phoenix.vim'
-  Plug 'tpope/vim-projectionist'
-  Plug 'slashmili/alchemist.vim'
-  Plug 'powerman/vim-plugin-AnsiEsc'
-  Plug 'cloudhead/neovim-fuzzy'
-call plug#end()
+" Not tmp or swap files
+set nobackup
+set noswapfile
+set nowritebackup
 
 nnoremap <C-p> :FuzzyOpen<CR>
 
