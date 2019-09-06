@@ -11,6 +11,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'jreybert/vimagit'
 
 "  Plug 'c-brenn/phoenix.vim'
 Plug 'tpope/vim-projectionist'
