@@ -23,6 +23,9 @@ set smartcase
 set cursorline
 set cursorcolumn
 
+" Remove Trailing Whitespaces!!!!!
+autocmd BufWritePre * :%s/\s+$//e
+
 " Not tmp or swap files
 set nobackup
 set noswapfile
