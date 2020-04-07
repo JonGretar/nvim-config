@@ -38,6 +38,9 @@ nnoremap <C-p> :FuzzyOpen<CR>
 
 map <C-n> :NERDTreeToggle<CR>
 
+map <C-x><left> :bp<CR>
+map <C-x><right> :bn<CR>
+
 " Airline Stuff
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
