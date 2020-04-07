@@ -23,6 +23,9 @@ set smartcase
 set cursorline
 set cursorcolumn
 
+" Set leader
+let mapleader = "\<Space>"
+
 " Remove Trailing Whitespaces!!!!!
 autocmd BufWritePre * :%s/\s+$//e
 
