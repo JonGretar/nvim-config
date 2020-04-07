@@ -13,6 +13,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
+
 Plug 'jreybert/vimagit'
 Plug 'tpope/vim-surround'
 Plug 'c-brenn/phoenix.vim'
