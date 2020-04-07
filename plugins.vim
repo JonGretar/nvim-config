@@ -15,6 +15,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 
+Plug 'scrooloose/nerdcommenter'
+
 Plug 'jreybert/vimagit'
 Plug 'tpope/vim-surround'
 Plug 'c-brenn/phoenix.vim'
