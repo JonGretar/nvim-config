@@ -1,8 +1,11 @@
+
+Plug 'mhinz/vim-startify'
 " Plugins go here
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'amiralies/coc-elixir'
+
 Plug 'sheerun/vim-polyglot'
 Plug 'tomasr/molokai'
-
 Plug 'neomake/neomake'
 
 Plug 'tpope/vim-fugitive'
@@ -14,6 +17,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
+
+Plug 'airblade/vim-gitgutter'
+Plug 'jiangmiao/auto-pairs'
 
 Plug 'scrooloose/nerdcommenter'
 
