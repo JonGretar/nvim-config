@@ -12,6 +12,9 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'editorconfig/editorconfig-vim'
 
+Plug 'mattn/emmet-vim'
+Plug 'alvan/vim-closetag'
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
