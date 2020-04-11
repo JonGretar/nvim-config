@@ -6,6 +6,7 @@ call plug#end()
 
 " Misc Stuff
 "set mouse=""
+set mouse=a
 set tabstop=2
 set softtabstop=2
 set expandtab
