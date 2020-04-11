@@ -24,6 +24,9 @@ set smartcase
 set cursorline
 set cursorcolumn
 
+" Use system clipboard
+set clipboard=unnamed
+
 " Set leader
 let mapleader = "\<Space>"
 
