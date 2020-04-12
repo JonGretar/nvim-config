@@ -40,8 +40,11 @@ set nowritebackup
 
 nnoremap <C-p> :FuzzyOpen<CR>
 
+" Some keybinding
+nnoremap <C-p> :FuzzyOpen<CR>
 map <C-n> :NERDTreeToggle<CR>
 
+" Buffer traversing
 map <C-x><left> :bp<CR>
 map <C-x><right> :bn<CR>
 
