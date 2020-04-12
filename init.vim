@@ -38,7 +38,8 @@ set nobackup
 set noswapfile
 set nowritebackup
 
-nnoremap <C-p> :FuzzyOpen<CR>
+" Include configurations
+source ~/.config/nvim/coc.vim
 
 " Some keybinding
 nnoremap <C-p> :FuzzyOpen<CR>

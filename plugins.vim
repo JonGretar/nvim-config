@@ -29,7 +29,12 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'jreybert/vimagit'
 Plug 'tpope/vim-surround'
 Plug 'c-brenn/phoenix.vim'
+
 Plug 'tpope/vim-projectionist'
 Plug 'slashmili/alchemist.vim'
+Plug 'c-brenn/fuzzy-projectionist.vim'
+Plug 'andyl/vim-projectionist-elixir'
+
+"Plug 'slashmili/alchemist.vim'
 Plug 'powerman/vim-plugin-AnsiEsc'
 Plug 'cloudhead/neovim-fuzzy'
