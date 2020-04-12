@@ -28,10 +28,13 @@ Plug 'scrooloose/nerdcommenter'
 
 Plug 'jreybert/vimagit'
 Plug 'tpope/vim-surround'
+"Plug 'tpope/vim-endwise'
+
+Plug 'easymotion/vim-easymotion'
+
 Plug 'c-brenn/phoenix.vim'
 
 Plug 'tpope/vim-projectionist'
-Plug 'slashmili/alchemist.vim'
 Plug 'c-brenn/fuzzy-projectionist.vim'
 Plug 'andyl/vim-projectionist-elixir'
 
