@@ -58,8 +58,8 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:startify_change_to_vcs_root = 1
 
  let g:startify_lists = [
-          \ { 'type': 'files',     'header': ['   MRU']            },
           \ { 'type': 'dir',       'header': ['   MRU '. getcwd()] },
+          \ { 'type': 'files',     'header': ['   MRU']            },
           \ { 'type': 'sessions',  'header': ['   Sessions']       },
           \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
           \ { 'type': 'commands',  'header': ['   Commands']       },
