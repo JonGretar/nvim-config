@@ -33,6 +33,9 @@ let mapleader = "\<Space>"
 " Remove Trailing Whitespaces!!!!!
 autocmd BufWritePre * :%s/\s+$//e
 
+" Let's run mix in test mode. So we do not interfere with code reload
+let $MIX_ENV = 'test'
+
 " Not tmp or swap files
 set nobackup
 set noswapfile
