@@ -95,4 +95,23 @@ colorscheme molokai
 " Let quit work as expected if after entering :q the only window left open is NERD Tree itself
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" Vim Test Config
+function! RunTestSuite()
+  clear
+  if filereadable('bin/test_suite')
+    echo 'bin/test_suite'
+    bin/test_suite
+  elseif filereadable('bin/test')
+    echo 'bin/test'
+    bin/test
+  else
+    TestSuite
+  endif
+endfunction
+
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :call RunTestSuite()<CR>
+nmap <silent> <leader>l :TestLast<CR>
+
 

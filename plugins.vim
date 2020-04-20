@@ -65,5 +65,8 @@ Plug 'c-brenn/fuzzy-projectionist.vim'
 Plug 'andyl/vim-projectionist-elixir'
 Plug 'c-brenn/phoenix.vim'
 
+" Test running plugin
+Plug 'janko/vim-test'
+
 " Ansi Coloring
 Plug 'powerman/vim-plugin-AnsiEsc'
