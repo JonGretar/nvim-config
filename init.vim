@@ -48,6 +48,9 @@ source ~/.config/nvim/coc.vim
 nnoremap <C-p> :FuzzyOpen<CR>
 map <C-n> :NERDTreeToggle<CR>
 
+" Show trailing whitespace.
+set list listchars=tab:»·,trail:·
+
 " Buffer traversing
 map <C-x><left> :bp<CR>
 map <C-x><right> :bn<CR>
