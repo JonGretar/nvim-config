@@ -11,7 +11,7 @@ Plug 'tomasr/molokai'
 " Code Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'amiralies/coc-elixir'
-
+"Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
 
 Plug 'cloudhead/neovim-fuzzy'
 
