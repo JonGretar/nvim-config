@@ -48,6 +48,9 @@ source ~/.config/nvim/coc.vim
 nnoremap <C-p> :FuzzyOpen<CR>
 map <C-n> :NERDTreeToggle<CR>
 
+" Make esc shut down hightlighting
+nnoremap <esc> :noh<return><esc>
+
 " Show trailing whitespace.
 set list listchars=tab:»·,trail:·
 
