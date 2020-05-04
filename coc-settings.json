@@ -5,6 +5,7 @@
 
   // Explorer Settings
   "explorer.icon.enableNerdfont": true,
+  "explorer.quitOnOpen": true,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expandOrCollapse", "open"]
   }

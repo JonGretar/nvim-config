@@ -1,8 +1,8 @@
 
 " Load Plugins
-call plug#begin('~/.config/nvim/plugged')                                                                                      
-  source ~/.config/nvim/plugins.vim                                                                                            
-call plug#end()           
+call plug#begin('~/.config/nvim/plugged')
+  source ~/.config/nvim/plugins.vim
+call plug#end()
 
 " Misc Stuff
 "set mouse=""
@@ -85,7 +85,7 @@ let g:startify_change_to_vcs_root = 1
           \ { 'type': 'commands',  'header': ['   Commands']       },
           \ ]
 
- 
+
 " Neomake Config
 augroup localneomake
   autocmd! BufWritePost * Neomake
