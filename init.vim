@@ -65,6 +65,9 @@ set list listchars=tab:»·,trail:·
 " Buffer traversing
 map <C-x><left> :bp<CR>
 map <C-x><right> :bn<CR>
+map <TAB> :bn<CR>
+map <S-TAB> :bp<CR>
+
 
 " Airline Stuff
 let g:airline_powerline_fonts = 1
