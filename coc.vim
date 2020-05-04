@@ -15,6 +15,11 @@ set shortmess+=c
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
+" Install my extensions
+let g:coc_global_extensions = ['coc-json', 'coc-html', 'coc-elixir', 'coc-tailwindcss', 'coc-explorer']
+
+nmap <C-e> :CocCommand explorer<CR>
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
@@ -99,8 +104,8 @@ omap af <Plug>(coc-funcobj-a)
 " Use <TAB> for selections ranges.
 " NOTE: Requires 'textDocument/selectionRange' support from the language server.
 " coc-tsserver, coc-python are the examples of servers that support it.
-nmap <silent> <TAB> <Plug>(coc-range-select)
-xmap <silent> <TAB> <Plug>(coc-range-select)
+nmap <silent> <Leader><TAB> <Plug>(coc-range-select)
+xmap <silent> <Leader><TAB> <Plug>(coc-range-select)
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')

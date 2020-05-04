@@ -117,7 +117,24 @@ endfunction
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | exe 'NERDTree' | endif
 
 " Let quit work as expected if after entering :q the only window left open is NERD Tree itself
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
+function! CloseAddons()
+    for w in range(1, winnr('$'))
+        if bufname(winbufnr(w)) !~# '__Tagbar\|NERD_tree_\|coc-explorer'
+                \ && getbufvar(winbufnr(w), "&buftype") !=? "quickfix"
+            return
+        endif
+    endfor
+
+    if tabpagenr('$') ==? 1
+        execute 'quitall'
+    else
+        execute 'tabclose'
+    endif
+endfunction
+autocmd bufenter * call CloseAddons()
 
 " Vim Test Config
 function! RunTestSuite()

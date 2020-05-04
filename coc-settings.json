@@ -1,2 +1,11 @@
 {
+
+
+
+
+  // Explorer Settings
+  "explorer.icon.enableNerdfont": true,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expandOrCollapse", "open"]
+  }
 }

@@ -27,16 +27,15 @@ Plug 'jreybert/vimagit'
 " Respect the .editorconfig files
 Plug 'editorconfig/editorconfig-vim'
 
+" Multiple Cursor Support
+Plug 'terryma/vim-multiple-cursors'
+
 " Make powerful HTML.
 Plug 'mattn/emmet-vim'
 
 " Status bar plugin
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-" Nerdtree plugins
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Add file icons to Nerdtree and other locations
 Plug 'ryanoasis/vim-devicons'
