@@ -24,6 +24,9 @@ set smartcase
 set cursorline
 set cursorcolumn
 
+" This is needed for hightlighting.
+set termguicolors
+
 " Use system clipboard
 set clipboard=unnamed
 
