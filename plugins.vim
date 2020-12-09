@@ -16,6 +16,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Snippet Support
 Plug 'honza/vim-snippets'
 
+" Twig and Timber
+Plug 'nelsyeung/twig.vim'
 
 Plug 'cloudhead/neovim-fuzzy'
 
