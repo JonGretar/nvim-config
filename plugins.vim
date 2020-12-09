@@ -75,3 +75,6 @@ Plug 'janko/vim-test'
 
 " Ansi Coloring
 Plug 'powerman/vim-plugin-AnsiEsc'
+
+" RS
+Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}

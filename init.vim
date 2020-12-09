@@ -40,6 +40,7 @@ set clipboard=unnamed
 
 " Set leader
 let mapleader = "\<Space>"
+let maplocalleader = "ö"
 
 " Remove Trailing Whitespaces!!!!!
 autocmd BufWritePre * :%s/\s+$//e
