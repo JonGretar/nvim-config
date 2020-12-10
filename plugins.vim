@@ -64,6 +64,9 @@ Plug 'scrooloose/nerdcommenter'
 " Easy motion inside files
 Plug 'easymotion/vim-easymotion'
 
+" Latex Support
+Plug 'lervag/vimtex'
+
 " Projectionist is for switching between related files.
 Plug 'tpope/vim-projectionist'
 Plug 'c-brenn/fuzzy-projectionist.vim'

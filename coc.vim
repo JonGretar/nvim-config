@@ -16,7 +16,7 @@ set shortmess+=c
 set signcolumn=yes
 
 " Install my extensions
-let g:coc_global_extensions = [ 'coc-json', 'coc-html', 'coc-elixir', 'coc-tailwindcss', 'coc-explorer', 'coc-snippets', 'coc-emmet', 'coc-highlight']
+let g:coc_global_extensions = [ 'coc-json', 'coc-html', 'coc-elixir', 'coc-tailwindcss', 'coc-explorer', 'coc-snippets', 'coc-emmet', 'coc-highlight', 'coc-vimtex']
 
 
 nmap <C-e> :CocCommand explorer<CR>
