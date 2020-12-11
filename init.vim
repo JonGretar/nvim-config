@@ -68,6 +68,9 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
+" R has this stupid auto change of _ to <-. It saves no time
+let R_assign = 0
+
 " Make esc shut down hightlighting
 nnoremap <esc> :noh<return><esc>
 
