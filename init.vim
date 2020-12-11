@@ -43,7 +43,7 @@ let mapleader = "\<Space>"
 let maplocalleader = "ö"
 
 " Remove Trailing Whitespaces!!!!!
-autocmd BufWritePre * :%s/\s+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Let's run mix in test mode. So we do not interfere with code reload
 let $MIX_ENV = 'test'
